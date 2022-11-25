@@ -1,0 +1,5 @@
+###Run this code on console of times.com ###
+
+let x= document.getElementsByClassName('latest-stories__item');
+for( var i=0;i<x.length;i++){
+    console.log(x[i].innerText);}
